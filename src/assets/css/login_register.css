@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#login {
+    display: flex;
+
+    margin: auto;
+    border-radius: 4px;
+    padding-top: 4vh;
+    padding-bottom: 6vh;
+    width: 406px;
+    height: 368px;
+
+    background-color: rgba(255,255,255, .9);
+
+    box-shadow: 0 0 6px #edeff3 inset;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#register {
+    margin: auto;
+    /*margin-top: 10vh;*/
+    /*margin-bottom: 10vh;*/
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+    width: 50%;
+    min-width: 500px;
+    max-width: 750px;
+    /*background-color: white;*/
+    /*outline: 20px solid rgba(255,255,255,0.6);*/
+}
+
+label {
+    display: block;
+
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+
+    text-align: left;
+}
+input {
+    display: block;
+
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid #bbbdc1;
+    /*border: 1px solid #868de6;*/
+    border-radius: 4px;
+    padding: 6px 2%;
+    width: 60%;
+    height: 25px;
+
+    color: #fff;
+    /*额外添加*/
+    background-color: transparent;
+
+    outline: none;
+}
+button {
+    margin-top: 8px;
+    /* border: 2px solid #ddd; */
+    border: none;
+    border-radius: 4px;
+    padding: .6em 0;
+    width: 66%;
+
+    font-size: 14px;
+
+    color: white;
+    background: #1aad19;
+
+    outline: none;
+    /* background: linear-gradient(to left, #d79bec , #868de6 ); */
+
+    -webkit-transition: background .5s;
+            transition: background .5s;
+
+    cursor: pointer;
+}
+button:hover {
+    background: #1dad1a;
+}
+
+.divlogin {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background: url("../images/bg.png")  no-repeat fixed;
+    background-size: cover;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+.log-contain {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+
+    margin: -184px 0 0 -285px;
+    width: 530px;
+    height: 354px;
+}
+input::-webkit-input-placeholder {
+    color: #fff !important;
+}
+input::-moz-placeholder {
+    color: #fff !important;
+}
+input:-ms-input-placeholder {
+    color: #fff !important;
+}
+
+.log-h2 {
+    margin-bottom: 16px;
+
+    font-size: 28px;
+    letter-spacing: 4px;
+
+    color: #fff;
+}
+.register12 {
+    margin: 0 auto 6px auto;
+    width: 60%;
+
+    font-size: 10px;
+    text-align: right;
+    text-decoration: none;
+
+    color: #fff;
+
+    cursor: pointer;
+}
+.register-contain {
+    text-decoration: none;
+}
+.register-container {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background: url("../images/bg.png")  no-repeat fixed;
+    background-size: cover;
+}
+.register-all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -320px 0 0 -262px;
+    width: 524px;
+    height: 640px;
+}
+#register {
+    /* border: 1px solid #bbbdc1; */
+    border-radius: 4px;
+
+    box-shadow: 0 0 6px #edeff3 inset;
+}
+.register-button {
+    width: 36%;
+}
+.submit {
+    margin-left: 10px;
+}
